@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+:root{
+    --primary-color: rgb(44, 73, 167);
+    --primary-color-darker: rgb(21, 39, 99);
+}
+*{
+    box-sizing: border-box;
+    outline: 0;
+    
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--primary-color);
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+.container{
+    max-width: 800px;
+    margin: 50px auto;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 7px;
+    
+}
+.form{
+    margin-top: 55%;
+}
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus{
+    outline: 1px solid var(--primary-color);
+}
+
+form button{
+    border: none;
+    background: var(--primary-color);
+    color: #fff;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover{
+    background: var(--primary-color-darker);
+}
+
+.display1{
+    position: absolute;
+    margin-left: 20%;
+}
+.display2{
+    position: absolute;
+}
+
+.paragrafo-resultado, .bad{
+    background: rgb(95, 248, 141);
+    padding: 10px 20px;
+}
+.bad{
+    background: rgb(248, 127, 127);
+}
